@@ -1,0 +1,43 @@
+.footer{ 
+    text-align: center;
+    background-color: $lightgray;
+    font-family: $primary-font;
+
+        &__newsletter {
+            text-align: center;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            background-color: $lightgray;
+        }
+
+        h2 {
+            font-size: $font-xx-large;
+            font-weight: $roboto-black;
+        }
+
+        &__group-button {
+            display: inline-block;
+            border-width: 0;
+            font-size: 13px;
+            padding: 10px 20px;
+
+        }
+
+        &__group-button {
+            background-color: coral;
+            color: white;
+        }
+
+        &__derechos {
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        &__input {
+            padding: 10px 20px;
+            display: inline-block;
+            border: 1px solid $lightgray;
+            border-radius: 0px;
+            box-sizing: border-box;
+            } 
+} 

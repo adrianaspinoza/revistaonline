@@ -1,0 +1,58 @@
+.contenido{
+    width: 100%;
+    padding: 5px 20px;
+    font-family: $primary-font;
+
+        &__noticia {
+            position: relative;
+            width: 28%;
+            display: inline-block;
+            margin: 15px;
+            cursor: pointer;
+            
+                @media (max-width: 992px) {
+                    position: relative;
+                    width: 40%;
+                    display: inline-block;
+                    padding: 0 20px;
+                }
+
+                @media (max-width: 786px) {
+                    position: relative;
+                    width: 100%;
+                    display: inline-block;
+                }
+
+        }
+
+        &__cuerpo-img{
+            width: 20rem;
+            height: 450px;
+            text-align: center;
+
+                @media (max-width: 768px) {
+                    width: 25rem;
+                    height: 300px;
+                    display: inline-block;
+                }
+
+        }
+
+        &__cuerpo p {
+            padding: 5px 10px;
+            
+                @media (max-width: 768px) {
+                    padding: 0px;
+                }
+        }
+
+        h2{
+            font-weight: $roboto-black;
+            padding-right: 40px;
+
+                @media (max-width: 768px) {
+                    padding-right: 20px;
+                }
+        }
+        
+}
